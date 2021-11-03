@@ -12,6 +12,7 @@ public class Main {
         System.out.println("Challange 1:");
         var fizzBuzz = new FizzBuzz(number);
         fizzBuzz.codeChallange1(number);
+        int a=1;
 
     }
 }
