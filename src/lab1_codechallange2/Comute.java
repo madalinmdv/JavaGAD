@@ -1,4 +1,4 @@
-package codechallange2;
+package lab1_codechallange2;
 public class Comute {
     private int number;
     public String  comute(int number){

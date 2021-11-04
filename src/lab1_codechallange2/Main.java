@@ -1,18 +1,18 @@
-package com.company;
+package lab1_codechallange2;
+
+
 
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
+        String s="";
         var scanner = new Scanner(System.in);
         int number = scanner.nextInt();
 
-
-        System.out.println("Challange 1:");
-        var fizzBuzz = new FizzBuzz(number);
-        fizzBuzz.codeChallange1(number);
-        int a=1;
-
+        Comute str = new Comute();
+        s = str.comute(number);
+        System.out.println(s);
     }
 }

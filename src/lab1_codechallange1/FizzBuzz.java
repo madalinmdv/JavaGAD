@@ -1,4 +1,4 @@
-package com.company;
+package lab1_codechallange1;
 
 public class FizzBuzz {
     private int number;
