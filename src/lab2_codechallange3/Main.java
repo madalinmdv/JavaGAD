@@ -9,7 +9,7 @@ public class Main {
         Pet p = new Cat();
 
         System.out.println(c.getName());
-        Animal[] animals = {new Cat("Tabi"), new Fish(), new Spider("Yuck")};
+        Animal[] animals = {new Cat("Tabi"), new Fish("Dani"), new Spider("Yuck")};
 
     }
 }

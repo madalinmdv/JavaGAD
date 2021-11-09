@@ -3,10 +3,13 @@ package lab2_codechallange3;
 public class Fish extends Animal implements Pet {
     private String name;
 
-    public Fish() {
+    protected  Fish(String name){
         super(0);
+        this.name=name;
     }
-
+    public Fish() {
+        this("");
+    }
     @Override
     public void eat() {
         System.out.println("Fish is eating");
